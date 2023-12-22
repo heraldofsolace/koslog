@@ -42,7 +42,7 @@ backend:
 integrations:
   github:
     - host: github.com
-      token: ${GH_TOKEN}
+      token: YOUR_TOKEN_HERE # This should be the token from GitHub
       # apps:
       #   - $include: github-app-koslog-backstage-credentials.yaml
     ### Example for how to add your GitHub Enterprise instance using the API:
